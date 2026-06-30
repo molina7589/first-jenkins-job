@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test: specific": "npx playwright test --grep file-download-upload.spec.js",
+    "tests": "npx playwright test",
+    "test: specific": "npx playwright test --grep sep-practice01.spec.js",
     "test: headed": "npx playwright test --headed",
     "test: headless": "npx playwright test --headless",
     "test-tag-headed": "npx playwright test --headed --grep @test1",
