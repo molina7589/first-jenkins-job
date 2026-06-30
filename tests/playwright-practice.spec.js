@@ -5,7 +5,7 @@ test("Practice test", async ({ page }) => {
 await page.goto("https://www.google.com");
 //pause for 3 seconds
 await page.waitForTimeout(3000);
-//search for "Big booty Latinas"
+
 
 
 });

@@ -11,6 +11,7 @@
        await page.locator("//*[@class='gLFyf']").fill("big booty latinas");
        await page.locator("//*[@class='gLFyf']").press("Enter");
        await page.waitForTimeout(3000);
+       await page.close();
 
 
 
